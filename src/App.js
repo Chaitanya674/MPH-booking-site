@@ -12,7 +12,7 @@ import Bookings from "./pages/Bookings/Bookings";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/books" element={<List/>}/>
