@@ -12,9 +12,9 @@ import Bookings from "./pages/Bookings/Bookings";
 
 function App() {
   return (
-    <BrowserRouter basename="/MPH-booking-site">
+    <BrowserRouter>
       <Routes>
-        <Route exact_path="/MPH-booking-site" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/books" element={<List/>}/>
         <Route path="/confbook/:id" element={<ConfBook/>}/>
         <Route path="/login" element={<Login/>}/>
