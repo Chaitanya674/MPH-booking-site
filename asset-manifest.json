@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MPH-booking-site/static/css/main.6fd4e9c9.css",
-    "main.js": "/MPH-booking-site/static/js/main.8d4ffa1e.js",
+    "main.js": "/MPH-booking-site/static/js/main.34e9e762.js",
     "static/media/Auditorium.jpeg": "/MPH-booking-site/static/media/Auditorium.6e80db8bc55b9a5fe09f.jpeg",
     "index.html": "/MPH-booking-site/index.html",
     "main.6fd4e9c9.css.map": "/MPH-booking-site/static/css/main.6fd4e9c9.css.map",
-    "main.8d4ffa1e.js.map": "/MPH-booking-site/static/js/main.8d4ffa1e.js.map"
+    "main.34e9e762.js.map": "/MPH-booking-site/static/js/main.34e9e762.js.map"
   },
   "entrypoints": [
     "static/css/main.6fd4e9c9.css",
-    "static/js/main.8d4ffa1e.js"
+    "static/js/main.34e9e762.js"
   ]
 }
