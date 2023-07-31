@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter basename="/MPH-booking-site">
       <Routes>
-        <Route exact path="/MPH-booking-site" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/books" element={<List/>}/>
         <Route path="/confbook/:id" element={<ConfBook/>}/>
         <Route path="/login" element={<Login/>}/>
