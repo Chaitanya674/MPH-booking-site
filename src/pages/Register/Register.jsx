@@ -12,7 +12,7 @@ const Register = () => {
       e.preventDefault();
   
       try {
-        const response = await axios.post('/api/register', { username, password });
+        const response = await axios.post('https://mphbooking.onrender.com/api/register', { username, password });
         console.log(response.data);
       } catch (err) {
         console.error('Error during registration:', err.response.data);

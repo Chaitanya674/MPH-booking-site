@@ -16,7 +16,7 @@ const Bookings = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`/api/userbooks/${user}`, {params : `${user}`});
+      const response = await axios.get(`https://mphbooking.onrender.com/api/userbooks/${user}`, {params : `${user}`});
       const data = response.data;
       if (!data || !data.user.slots) {
         throw new Error('No slots data available');

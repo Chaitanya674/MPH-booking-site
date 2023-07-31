@@ -17,7 +17,7 @@ const ConfBook = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`/api/book/${id}`);
+      const response = await axios.get(`https://mphbooking.onrender.com/api/book/${id}`);
       const { slots, name } = response.data;
       const slotArray = Object.keys(slots).map((key) => ({ slotNumber: key, status: slots[key] }));
       setSlot({ name, slots: slotArray });
@@ -29,7 +29,7 @@ const ConfBook = () => {
 
   const handleBookSlot = async (slotNumber) => {
     try {
-      await axios.patch(`/api/book/${id}/${slotNumber}/${user}`, { slots: { ...slot.slots } });
+      await axios.patch(`https://mphbooking.onrender.com/api/book/${id}/${slotNumber}/${user}`, { slots: { ...slot.slots } });
       setSelectedSlot(slotNumber);
       fetchData(); 
     } catch (error) {

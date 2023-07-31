@@ -21,7 +21,7 @@ const List = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('/api/book');
+      const response = await axios.get('https://mphbooking.onrender.com/api/book');
       setData(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
